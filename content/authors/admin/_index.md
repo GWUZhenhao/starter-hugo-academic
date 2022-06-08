@@ -43,15 +43,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#   - icon: twitter
+#     icon_pack: fab
+#     link: https://twitter.com/GeorgeCushen
+#   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+#     icon_pack: fas
+#     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/zzhao-98
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
@@ -71,5 +71,7 @@ highlight_name: true
 ---
 
 
-I am graduate student in the department of computer science at George Washington University.
+I am a graduate student in the department of computer science at George Washington University.
+
+
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
