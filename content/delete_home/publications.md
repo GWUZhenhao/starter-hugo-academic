@@ -1,41 +1,71 @@
----
-# An instance of the Pages widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+[comment]: <> (---)
 
-# This file represents a page section.
-headless: true
+[comment]: <> (# An instance of the Pages widget.)
 
-# Order that this section appears on the page.
-weight: 90
+[comment]: <> (# Documentation: https://wowchemy.com/docs/page-builder/)
 
-title: Recent Publications
-subtitle: ''
+[comment]: <> (widget: pages)
 
-content:
-  # Filter on criteria
-  filters:
-    folders:
-      - publication
-    tag: ''
-    category: ''
-    publication_type: ''
-    author: ''
-    exclude_featured: false
-    exclude_future: false
-    exclude_past: false
-  # Choose how many pages you would like to display (0 = all pages)
-  count: 0
-  # Choose how many pages you would like to offset by
-  offset: 0
-  # Page order: descending (desc) or ascending (asc) date.
-  order: desc
-design:
-  # Choose a view for the listings:
-  view: citation
-  columns: '2'
----
+[comment]: <> (# This file represents a page section.)
 
-{{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
+[comment]: <> (headless: true)
+
+[comment]: <> (# Order that this section appears on the page.)
+
+[comment]: <> (weight: 90)
+
+[comment]: <> (title: Recent Publications)
+
+[comment]: <> (subtitle: '')
+
+[comment]: <> (content:)
+
+[comment]: <> (  # Filter on criteria)
+
+[comment]: <> (  filters:)
+
+[comment]: <> (    folders:)
+
+[comment]: <> (      - publication)
+
+[comment]: <> (    tag: '')
+
+[comment]: <> (    category: '')
+
+[comment]: <> (    publication_type: '')
+
+[comment]: <> (    author: '')
+
+[comment]: <> (    exclude_featured: false)
+
+[comment]: <> (    exclude_future: false)
+
+[comment]: <> (    exclude_past: false)
+
+[comment]: <> (  # Choose how many pages you would like to display &#40;0 = all pages&#41;)
+
+[comment]: <> (  count: 0)
+
+[comment]: <> (  # Choose how many pages you would like to offset by)
+
+[comment]: <> (  offset: 0)
+
+[comment]: <> (  # Page order: descending &#40;desc&#41; or ascending &#40;asc&#41; date.)
+
+[comment]: <> (  order: desc)
+
+[comment]: <> (design:)
+
+[comment]: <> (  # Choose a view for the listings:)
+
+[comment]: <> (  view: citation)
+
+[comment]: <> (  columns: '2')
+
+[comment]: <> (---)
+
+[comment]: <> ({{% callout note %}})
+
+[comment]: <> (Quickly discover relevant content by [filtering publications]&#40;./publication/&#41;.)
+
+[comment]: <> ({{% /callout %}})

@@ -1,45 +1,79 @@
----
-# An instance of the Featurette widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: featurette
+[comment]: <> (---)
 
-# This file represents a page section.
-headless: true
+[comment]: <> (# An instance of the Featurette widget.)
 
-# Order that this section appears on the page.
-weight: 30
+[comment]: <> (# Documentation: https://wowchemy.com/docs/page-builder/)
 
-title: Skills
-subtitle:
+[comment]: <> (widget: featurette)
 
-# Showcase personal skills or business features.
-# - Add/remove as many `feature` blocks below as you like.
-# - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
-feature:
-  - description: 90%
-    icon: r-project
-    icon_pack: fab
-    name: R
-  - description: 100%
-    icon: chart-line
-    icon_pack: fas
-    name: Statistics
-  - description: 10%
-    icon: camera-retro
-    icon_pack: fas
-    name: Photography
-# Uncomment to use emoji icons.
-#- icon: ":smile:"
-#  icon_pack: "emoji"
-#  name: "Emojiness"
-#  description: "100%"
+[comment]: <> (# This file represents a page section.)
 
-# Uncomment to use custom SVG icons.
-# Place your custom SVG icon in `assets/media/icons/`.
-# Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-# For example, reference `assets/media/icons/xyz.svg` as `icon: 'xyz'`
-#- icon: "your-custom-icon-name"
-#  icon_pack: "custom"
-#  name: "Surfing"
-#  description: "90%"
----
+[comment]: <> (headless: true)
+
+[comment]: <> (# Order that this section appears on the page.)
+
+[comment]: <> (weight: 30)
+
+[comment]: <> (title: Skills)
+
+[comment]: <> (subtitle:)
+
+[comment]: <> (# Showcase personal skills or business features.)
+
+[comment]: <> (# - Add/remove as many `feature` blocks below as you like.)
+
+[comment]: <> (# - For available icons, see: https://wowchemy.com/docs/page-builder/#icons)
+
+[comment]: <> (feature:)
+
+[comment]: <> (  - description: 90%)
+
+[comment]: <> (    icon: r-project)
+
+[comment]: <> (    icon_pack: fab)
+
+[comment]: <> (    name: R)
+
+[comment]: <> (  - description: 100%)
+
+[comment]: <> (    icon: chart-line)
+
+[comment]: <> (    icon_pack: fas)
+
+[comment]: <> (    name: Statistics)
+
+[comment]: <> (  - description: 10%)
+
+[comment]: <> (    icon: camera-retro)
+
+[comment]: <> (    icon_pack: fas)
+
+[comment]: <> (    name: Photography)
+
+[comment]: <> (# Uncomment to use emoji icons.)
+
+[comment]: <> (#- icon: ":smile:")
+
+[comment]: <> (#  icon_pack: "emoji")
+
+[comment]: <> (#  name: "Emojiness")
+
+[comment]: <> (#  description: "100%")
+
+[comment]: <> (# Uncomment to use custom SVG icons.)
+
+[comment]: <> (# Place your custom SVG icon in `assets/media/icons/`.)
+
+[comment]: <> (# Reference the SVG icon name &#40;without `.svg` extension&#41; in the `icon` field.)
+
+[comment]: <> (# For example, reference `assets/media/icons/xyz.svg` as `icon: 'xyz'`)
+
+[comment]: <> (#- icon: "your-custom-icon-name")
+
+[comment]: <> (#  icon_pack: "custom")
+
+[comment]: <> (#  name: "Surfing")
+
+[comment]: <> (#  description: "90%")
+
+[comment]: <> (---)
