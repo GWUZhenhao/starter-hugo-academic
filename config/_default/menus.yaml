@@ -9,7 +9,7 @@ main:
     weight: 10
   - name: Experience
     url: '#Experience'
-    weight: 20
+    weight: 80
   - name: CV
     url: 'static/uploads/resume.pdf'
     weight: 30
