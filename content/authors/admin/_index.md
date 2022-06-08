@@ -71,5 +71,5 @@ highlight_name: true
 ---
 
 
-Add the CV file.
+I am graduate student in the department of computer science at George Washington University.
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
