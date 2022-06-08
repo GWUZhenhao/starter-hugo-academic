@@ -27,8 +27,8 @@ experience:
     company_url: ''
     company_logo: org-gc
     location: Beijing
-    date_start: '2021-01-01'
-    date_end: ''
+    date_start: '2021-03-01'
+    date_end: '2021-08-01'
     description: |2-
         Responsibilities include:
         
@@ -41,8 +41,8 @@ experience:
     company_url: ''
     company_logo: org-x
     location: Beijing
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
+    date_start: '2020-08-01'
+    date_end: '2021-2-31'
     description: |2-
         Responsibilities include:
 
