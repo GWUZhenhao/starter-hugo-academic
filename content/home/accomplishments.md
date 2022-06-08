@@ -1,93 +1,93 @@
-[comment]: <> (---)
+---
 
-[comment]: <> (# An instance of the Accomplishments widget.)
+# An instance of the Accomplishments widget.
 
-[comment]: <> (# Documentation: https://wowchemy.com/docs/page-builder/)
+# Documentation: https://wowchemy.com/docs/page-builder/
 
-[comment]: <> (widget: accomplishments)
+widget: accomplishments
 
-[comment]: <> (# This file represents a page section.)
+# This file represents a page section.
 
-[comment]: <> (headless: true)
+headless: true
 
-[comment]: <> (# Order that this section appears on the page.)
+# Order that this section appears on the page.
 
-[comment]: <> (weight: 50)
+weight: 50
 
-[comment]: <> (# Note: `&shy;` is used to add a 'soft' hyphen in a long heading.)
+# Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
 
-[comment]: <> (title: 'Accomplish&shy;ments')
+title: 'Accomplish&shy;ments'
 
-[comment]: <> (subtitle:)
+subtitle:
 
-[comment]: <> (# Date format)
+# Date format
 
-[comment]: <> (#   Refer to https://wowchemy.com/docs/customization/#date-format)
+#   Refer to https://wowchemy.com/docs/customization/#date-format
 
-[comment]: <> (date_format: Jan 2006)
+date_format: Jan 2006
 
-[comment]: <> (# Accomplishments.)
+# Accomplishments.
 
-[comment]: <> (#   Add/remove as many `item` blocks below as you like.)
+#   Add/remove as many `item` blocks below as you like.
 
-[comment]: <> (#   `title`, `organization`, and `date_start` are the required parameters.)
+#   `title`, `organization`, and `date_start` are the required parameters.
 
-[comment]: <> (#   Leave other parameters empty if not required.)
+#   Leave other parameters empty if not required.
 
-[comment]: <> (#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.)
+#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 
-[comment]: <> (item:)
+item:
 
-[comment]: <> (  - certificate_url: https://www.coursera.org)
+  - certificate_url: https://www.coursera.org
 
-[comment]: <> (    date_end: '')
+    date_end: ''
 
-[comment]: <> (    date_start: '2021-01-25')
+    date_start: '2021-01-25'
 
-[comment]: <> (    description: '')
+    description: ''
 
-[comment]: <> (    organization: Coursera)
+    organization: Coursera
 
-[comment]: <> (    organization_url: https://www.coursera.org)
+    organization_url: https://www.coursera.org
 
-[comment]: <> (    title: Neural Networks and Deep Learning)
+    title: Neural Networks and Deep Learning
 
-[comment]: <> (    url: '')
+    url: ''
 
-[comment]: <> (  - certificate_url: https://www.edx.org)
+  - certificate_url: https://www.edx.org
 
-[comment]: <> (    date_end: '')
+    date_end: ''
 
-[comment]: <> (    date_start: '2021-01-01')
+    date_start: '2021-01-01'
 
-[comment]: <> (    description: Formulated informed blockchain models, hypotheses, and use cases.)
+    description: Formulated informed blockchain models, hypotheses, and use cases.
 
-[comment]: <> (    organization: edX)
+    organization: edX
 
-[comment]: <> (    organization_url: https://www.edx.org)
+    organization_url: https://www.edx.org
 
-[comment]: <> (    title: Blockchain Fundamentals)
+    title: Blockchain Fundamentals
 
-[comment]: <> (    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals)
+    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
 
-[comment]: <> (  - certificate_url: https://www.datacamp.com)
+  - certificate_url: https://www.datacamp.com
 
-[comment]: <> (    date_end: '2020-12-21')
+    date_end: '2020-12-21'
 
-[comment]: <> (    date_start: '2020-07-01')
+    date_start: '2020-07-01'
 
-[comment]: <> (    description: '')
+    description: ''
 
-[comment]: <> (    organization: DataCamp)
+    organization: DataCamp
 
-[comment]: <> (    organization_url: https://www.datacamp.com)
+    organization_url: https://www.datacamp.com
 
-[comment]: <> (    title: 'Object-Oriented Programming in R')
+    title: 'Object-Oriented Programming in R'
 
-[comment]: <> (    url: '')
+    url: ''
 
-[comment]: <> (design:)
+design:
 
-[comment]: <> (  columns: '2')
+  columns: '2'
 
-[comment]: <> (---)
+---
