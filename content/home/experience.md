@@ -23,18 +23,18 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Machine Learning Engineer
-    company: GenCoin
+    company: Union Strong Technology Co., LTD
     company_url: ''
     company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+    location: Beijing
+    date_start: '2021-03'
+    date_end: '2021-08'
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Traing and evaluating the deep learning model
+        * Medical image segmentation
+        * Data analyzing and processing
 
   - title: Professor of Semiconductor Physics
     company: University X
