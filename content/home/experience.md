@@ -1,4 +1,3 @@
----
 # An instance of the Experience widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
@@ -23,9 +22,9 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Machine Learning Engineer
-    company: Union Strong Technology Co., LTD
-    company_url: ''
-    company_logo: org-gc
+    company: Union Strong Technology
+    # company_url: ''
+    # company_logo: org-gc
     location: Beijing
     date_start: '2021-03'
     date_end: '2021-08'
@@ -36,15 +35,18 @@ experience:
         * Medical image segmentation
         * Data analyzing and processing
 
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Research Assistant
+    company: Infervision Medical Technology
+    # company_url: ''
+    # company_logo: org-x
+    location: Beijing
+    date_start: '2020-08'
+    date_end: '2021-02'
+    description: |2-
+        Responsibilities include:
 
+        * Data analyzing and processing
+        * research report writting
 design:
   columns: '2'
 ---
