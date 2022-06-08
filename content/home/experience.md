@@ -42,7 +42,7 @@ experience:
     company_logo: org-x
     location: Beijing
     date_start: '2020-08-01'
-    date_end: '2021-2-25'
+    date_end: '2021-02-25'
     description: |2-
         Responsibilities include:
 
