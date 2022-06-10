@@ -25,7 +25,7 @@ experience:
   - title: Machine Learning Engineer
     company: Union Strong Technology Co., LTD
     company_url: ''
-    company_logo: org-gc
+    # company_logo: org-gc
     location: Beijing
     date_start: '2021-03-01'
     date_end: '2021-08-01'
@@ -39,7 +39,7 @@ experience:
   - title: Research Assistant
     company: Infervision Medical Technology Co., LTD 
     company_url: ''
-    company_logo: org-x
+    # company_logo: org-x
     location: Beijing
     date_start: '2020-08-01'
     date_end: '2021-02-25'
