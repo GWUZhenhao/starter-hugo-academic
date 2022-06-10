@@ -1,9 +1,9 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Camera Vision based Perception for UAS Autonomous Landing
+summary: A deep-learning based UAS perception algorithm.
 tags:
   - Deep Learning
-date: '2016-04-27T00:00:00Z'
+date: '2022-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
