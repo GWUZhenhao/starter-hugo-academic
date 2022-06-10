@@ -14,7 +14,7 @@ organizations:
     url: https://www.gwu.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include machine learning, computer vision and artificial intelligence.
+bio: My research interests include machine learning, computer vision and data analysis.
 
 # Interests to show in About widget
 interests:
