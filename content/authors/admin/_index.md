@@ -70,7 +70,7 @@ highlight_name: true
 
 I am a graduate student in the department of computer science at George Washington University.
 My research focuses on machine learning, computer vision and their related application.
-I am currently working on the UAS vision and perception research mentored by the professor {{< staticref "uploads/resume.pdf" "newtab" >}}Peng Wei{{< /staticref >}}..
+I am currently working on the UAS vision and perception research mentored by the professor {{< staticref "https://web.seas.gwu.edu/pwei/" "newtab" >}}Peng Wei{{< /staticref >}}.
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://web.seas.gwu.edu/pwei/" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
