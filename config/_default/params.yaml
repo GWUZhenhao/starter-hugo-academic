@@ -109,7 +109,3 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
-
-
-# Show related content at the bottom of pages?
-show_related = {docs = false, page = false, post = false, project = false, publication = false, talk = false}
