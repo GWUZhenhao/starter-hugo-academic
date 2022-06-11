@@ -90,6 +90,6 @@ The RetinaNet detection:
 {{< youtube SGFQ4z6T_2o >}}
 
 ### Time consumption
-<img src="//uploads/UAS_project/time_table.png" alt="demo" class="img-responsive">
+
 ![Example image](/uploads/UAS_project/time_table.png)
 
