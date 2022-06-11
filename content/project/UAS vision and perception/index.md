@@ -8,6 +8,12 @@ date: '2022-04-27T00:00:00Z'
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
+authors:
+  - Zhenhao Zhao
+  - Jonathan Lee
+  - Zongyao Li
+  - Peng Wei
+
 image:
   caption: 
   focal_point: Smart
@@ -90,6 +96,7 @@ The RetinaNet detection:
 {{< youtube SGFQ4z6T_2o >}}
 
 ### Time consumption
-
 ![Example image](/uploads/UAS_project/time_table.png)
+
+### The onboard GPU we used
 
