@@ -83,9 +83,12 @@ the algorithm clears the UAS for landing
 ## Result
 
 ### Demo video
+The YOLOv5 detection:
 {{< youtube fQm7ZFBYHF4 >}}
+
+The RetinaNet detection:
 {{< youtube SGFQ4z6T_2o >}}
 
 ### Time consumption
-![Example image](/content/project/UAS%20vision%20and%20perception/time_table.png)
+![Example image](/static/uploads/UAS_project/time_table.png)
 
