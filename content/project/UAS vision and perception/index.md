@@ -99,4 +99,4 @@ The RetinaNet detection:
 ![Example image](/uploads/UAS_project/time_table.png)
 
 ### The onboard GPU we used
-
+![Example image](/uploads/UAS_project/onboard_GPU.JPG)
