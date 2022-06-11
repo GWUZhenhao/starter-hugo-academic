@@ -9,7 +9,7 @@ date: '2022-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: 
   focal_point: Smart
 
 # links:
@@ -37,9 +37,8 @@ reconfiguration such as moving or static obstacles near/on the designated landin
 people, pets, cars, and bikes. We explore the feasibility of using camera vision based perception to (1) identify the
 landing pad, and (2) detect the obstacles near or on the landing pad. An accurate, fast and reliable perception module is
 a key component for a fully autonomous landing stack, together with a prediction module and planning/control module.
-In this paper, we focus on implementing and evaluating two state-of-the-art deep learning models for UAS perception,
+In this project, we focus on implementing and evaluating two state-of-the-art deep learning models for UAS perception,
 RetinaNet and YOLOv5. We compare the two models’ object detection accuracy and the computation speed with
-real-world landing videos.
-According to our knowledge, there is little work in the literature investigating the deep learning based computer
-vision to support small UAS autonomous landing during off-nominal events. This paper documents a major part of our
-research team’s continuous effort on building a full-stack autonomous landing demonstration
+real-world landing videos. 
+
+# Result
