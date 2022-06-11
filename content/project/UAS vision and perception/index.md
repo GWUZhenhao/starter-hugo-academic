@@ -30,7 +30,7 @@ url_video: ''
 # slides: example
 ---
 
-# Abstract
+## Project overview
 
 The use of small Unmanned Aircraft Systems (UAS) is promising for last-mile package delivery. Commercial small
 UASs have become more and more automated in executing a pre-defined flight plan and landing in a well-clear landing
@@ -43,6 +43,49 @@ In this project, we focus on implementing and evaluating two state-of-the-art de
 RetinaNet and YOLOv5. We compare the two models’ object detection accuracy and the computation speed with
 real-world landing videos. 
 
-{{< youtube fQm7ZFBYHF4 >}}
+## Methods
+### Dataset:
+We trained the model on the VisDrone2019-Det dataset, which is a public dataset collected by the AISKYEYE
+team at the Lab of Machine Learning and Data Mining, Tianjin University, China. The dataset consists of 7,019 static
+images taken by various drone platforms collected from 14 cities that are thousands of kilometers away from each other.
+Additionally, the dataset covers a broad distribution of locations from urban to rural, with different object densities. This
+makes the model trained on this dataset robust and very suitable for this study.
 
-# Result
+
+### Model selection:
+We select YOLOv5 and RetinaNet for this project. In 2017, RetinaNet outperformed YOLOv2 on both the speed (ms) and accuracy (AP) for the COCO test-dev
+dataset. But in the current years, the fifth generation of YOLO models was released. It is necessary to compare the two model
+types in inference speed and accuracy and select the better model for our algorithms.
+
+
+### Object tracking using the Kanade-Lucas-Tomasi tracker and landing pad detection:
+The plan for landing pad detection and tracking is as follows. First, we take a reference photo of the landing pad,
+and extract features of the landing pad with the Harris feature detector. Second, we match the features in the video
+frame to the reference features by minimizing the SSD (sum of squared difference) to draw the bounding box. Once we
+detected the landing pad, we will track it by the Kanade-Lucas-Tomasi (KLT) Tracker for the remaining frames.
+
+
+Another option is using ArUco markers to detect the landing pad. The ArUco library is based on OpenCV
+and enables the detection of various tag dictionaries. ArUco markers are synthetic square markers containing an inner
+binary matrix. There are several functions in the OpenCV library that can locate the markers precisely and quickly in
+the images and videos. We can put several markers on the landing pad, and draw the landing pad bounding box based on
+the location of the markers.
+
+
+When both the bounding box of the objects and the landing pad are determined, the algorithm can give landing
+advice. If there is intersection between the bounding boxes of objects and the landing pad, that means there are
+pedestrians or cars on the landing pad. Therefore, the algorithm will consider the drone unsuitable for landing and the
+drone will pause its landing process and hold its position. When the object leaves the landing area, the algorithm detects
+that the landing pad’s bounding box does not overlap any other bounding box. It proves that the landing area is safe, and
+the algorithm clears the UAS for landing
+
+
+## Result
+
+### Demo video
+{{< youtube fQm7ZFBYHF4 >}}
+{{< youtube SGFQ4z6T_2o >}}
+
+### Time consumption
+![Example image](/content/project/UAS%20vision%20and%20perception/time_table.png)
+
