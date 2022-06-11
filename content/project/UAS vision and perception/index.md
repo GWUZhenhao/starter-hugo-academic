@@ -30,6 +30,8 @@ url_video: ''
 # slides: example
 ---
 
+# Abstract
+
 The use of small Unmanned Aircraft Systems (UAS) is promising for last-mile package delivery. Commercial small
 UASs have become more and more automated in executing a pre-defined flight plan and landing in a well-clear landing
 pad. However, to achieve higher level autonomy during an off-nominal landing, a UAS needs to recognize landing scene
@@ -40,5 +42,7 @@ a key component for a fully autonomous landing stack, together with a prediction
 In this project, we focus on implementing and evaluating two state-of-the-art deep learning models for UAS perception,
 RetinaNet and YOLOv5. We compare the two models’ object detection accuracy and the computation speed with
 real-world landing videos. 
+
+{{< youtube fQm7ZFBYHF4 >}}
 
 # Result
