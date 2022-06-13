@@ -86,7 +86,7 @@ that the landing pad’s bounding box does not overlap any other bounding box. I
 the algorithm clears the UAS for landing
 
 
-## Result
+## Results
 
 ### Demo video
 The YOLOv5 detection:
@@ -99,4 +99,5 @@ The RetinaNet detection:
 ![Example image](/uploads/UAS_project/time_table.png)
 
 ### The onboard GPU we used
+NVIDIA JETSON XAVIER NX
 ![Example image](/uploads/UAS_project/onboard_GPU.JPG)
