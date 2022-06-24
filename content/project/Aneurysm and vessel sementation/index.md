@@ -53,8 +53,11 @@ In this experiment, we chose 3D nnUNet for aneurysm segmentation. Compared with 
 
 ### Visualize the segmentation:
 We visualize the segmentation with the Visualization Toolkit (VTK).
+
+![Example image](static/uploads/Aneurysm_segmentation/seg_sample.png “The segmentation”)
+
 <figure>
-  <img src="/uploads/UAS_project/time_table.png" alt="{{ .Text }}">
-  <figcaption>{{ .Title }}</figcaption>
+  <img src=static/uploads/Aneurysm_segmentation/seg_sample.png alt="{{ .Text }}">
+  <figcaption>{{ "The segmentation" }}</figcaption>
 </figure>
 
