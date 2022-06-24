@@ -42,20 +42,13 @@ In this experiment, we chose 3D nnUNet for aneurysm segmentation. Compared with 
 ## Result
 ### The segmentation dice accuracy
 
-[[ Table ]]
-  Title = "1"
-  Title = "2"
- [[ Table Row ]]
-   data = "A1"
-   data = "B2"
- [[ Table Row ]]
-   data = "C1"
-   data = "D2"
-
-
 <div class="table">
+
 | Model | Vessel dice on validation set(mean/std) | Aneurysm dice on validation set(mean/std) |
 |:------:|:------:|:------:|
 | nnUNet(patch size = 192) | 0.933/0.051 | 0.841/0.206 |
 | nnUNet(patch size = 192) | 0.934/0.057 | 0.905/0.093 |
+
+
 </div>
+
