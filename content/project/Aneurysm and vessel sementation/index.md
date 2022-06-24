@@ -44,10 +44,10 @@ In this experiment, we chose 3D nnUNet for aneurysm segmentation. Compared with 
 
 <div class="table">
 
-| Model | Vessel dice on validation set(mean/std) | Aneurysm dice on validation set(mean/std) |
-|:------:|:------:|:------:|
-| nnUNet(patch size = 192) | 0.933/0.051 | 0.841/0.206 |
-| nnUNet(patch size = 192) | 0.934/0.057 | 0.905/0.093 |
+|           Model           | Vessel dice on validation set (mean/std) | Aneurysm dice on validation set (mean/std) |
+|:-------------------------:|:----------------------------------------:|:------------------------------------------:|
+| nnUNet (patch size = 192) |               0.933/0.051                |                0.841/0.206                 |
+| nnUNet (patch size = 192) |               0.934/0.057                |                0.905/0.093                 |
 
 
 </div>
