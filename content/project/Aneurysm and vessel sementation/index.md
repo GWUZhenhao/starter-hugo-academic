@@ -35,3 +35,14 @@ url_video: ''
 
 ## Project overview
 For this project, the No New U-Net (nnUNet) was used for accurate segmentation of 3D digital subtraction angiography images. The dice coefficient was taken as the evaluation standard, and the accuracy had reached above 90 percent. 
+
+<div class="table">
+
+| Disk 0 | Disk 1 | Disk 2 | Disk 3 |
+|:------:|:------:|:------:|:-------:|
+|   A1   |   A2   |   A3   | Ap(1-3) |
+|   A4   |   A5   |   A6   | Ap(4-6) |
+|   B1   |   B2   |   B3   | Bp(1-3) |
+|   B4   |   B5   |   B6   | Bp(4-6) |
+
+</div>
