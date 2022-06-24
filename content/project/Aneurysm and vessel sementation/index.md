@@ -36,13 +36,14 @@ url_video: ''
 ## Project overview
 For this project, the No New U-Net (nnUNet) was used for accurate segmentation of 3D digital subtraction angiography images. The dice coefficient was taken as the evaluation standard, and the accuracy had reached above 90 percent. 
 
+## Model selection
+In this experiment, we chose 3D nnUNet for aneurysm segmentation. Compared with the common 3D UNet model, nnUNet has made great innovations in data set preprocessing. And achieved good results in various medical imaging competitions.
+
+## Result
+### The segmentation dice accuracy
 <div class="table">
-
-| Disk 0 | Disk 1 | Disk 2 | Disk 3 |
-|:------:|:------:|:------:|:-------:|
-|   A1   |   A2   |   A3   | Ap(1-3) |
-|   A4   |   A5   |   A6   | Ap(4-6) |
-|   B1   |   B2   |   B3   | Bp(1-3) |
-|   B4   |   B5   |   B6   | Bp(4-6) |
-
+| Model | Vessel dice on validation set(mean/std) | Aneurysm dice on validation set(mean/std) |
+|:------:|:------:|:------:|
+| nnUNet(patch size = 192) | 0.933/0.051 | 0.841/0.206 |
+| nnUNet(patch size = 192) | 0.934/0.057 | 0.905/0.093 |
 </div>
