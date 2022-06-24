@@ -56,8 +56,5 @@ We visualize the segmentation with the Visualization Toolkit (VTK).
 
 ![Example image](static/uploads/Aneurysm_segmentation/seg_sample.png “The segmentation”)
 
-<figure>
-  <img src=static/uploads/Aneurysm_segmentation/seg_sample.png alt="{{ .Text }}">
-  <figcaption>{{ "The segmentation" }}</figcaption>
-</figure>
+
 
