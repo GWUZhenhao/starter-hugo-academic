@@ -56,5 +56,5 @@ We visualize the segmentation with the Visualization Toolkit (VTK).
 
 ![Example image](uploads/Aneurysm_segmentation/seg_sample.png)
 ![Example image](/uploads/UAS_project/onboard_GPU.JPG)
-![Example image](uploads/Aneurysm_segmentation/1.jpg)
+![Example image](/uploads/UAS_project/1.JPG)
 
