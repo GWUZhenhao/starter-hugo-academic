@@ -53,7 +53,10 @@ In this experiment, we chose 3D nnUNet for aneurysm segmentation. Compared with 
 
 ### Visualize the segmentation:
 We visualize the segmentation with the Visualization Toolkit (VTK).
+
+
 The left image is the model predict and the right image is the ground truth.
-![Example image](/uploads/UAS_project/seg_sample.png)
+![Example image](/uploads/UAS_project/seg_sample1.png)
+![Example image](/uploads/UAS_project/seg_sample2.png)
 
 
