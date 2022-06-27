@@ -53,14 +53,15 @@ We clean the data by:
 >5. Drop the null class
 ![The comparison](/uploads/UAS_project/data_clean_compare.png)
 
-<div class="half" style="text-align: center;">
-    <img src="/uploads/UAS_project/data_clean_compare.png"><img src="/uploads/UAS_project/data_clean_compare.png">
-</div>
+<figure class="half">
+    <img src="/uploads/UAS_project/data_clean_compare.png">
+    <img src="/uploads/UAS_project/data_clean_compare.png">
+</figure>
 
 <div style="text-align: center;">
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="/uploads/UAS_project/data_clean_compare.png">
+    src="/uploads/UAS_project/data_clean_compare.png" alt="average picture">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
