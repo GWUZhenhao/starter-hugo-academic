@@ -1,6 +1,6 @@
 ---
-title: Camera Vision based Perception for UAS Autonomous Landing
-summary: A deep-learning based UAS perception algorithm.
+title: Blood cell classification
+summary: A deep-learning based medical image classification project.
 tags:
   - Deep Learning
 date: '2022-04-27T00:00:00Z'
@@ -10,9 +10,6 @@ external_link: ''
 
 authors:
   - Zhenhao Zhao
-  - Jonathan Lee
-  - Zongyao Li
-  - Peng Wei
 
 image:
   caption: 
