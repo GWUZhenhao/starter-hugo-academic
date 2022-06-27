@@ -55,8 +55,8 @@ We clean the data by:
 
 Also, I do the data exploration by drawing the pixel distribution and average images.
 
-| ![The comparison](/uploads/UAS_project/average_image.png "average images for each class") | ![The comparison](\uploads\UAS_project\pixel_distribution.png "Pixel distribution") |
-|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| ![Average](/uploads/UAS_project/average_image.png "average images for each class") | ![Distribution](\uploads\UAS_project\pixel_distribution.png "Pixel distribution") |
+|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 
 
 
