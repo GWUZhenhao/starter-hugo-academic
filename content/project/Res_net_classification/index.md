@@ -54,7 +54,7 @@ We clean the data by:
 ![The comparison](/uploads/UAS_project/data_clean_compare.png)
 
 <div class="half" style="text-align: center;">
-    <img src="/uploads/UAS_project/data_clean_compare.png" width="200"/><img src="/uploads/UAS_project/data_clean_compare.png" width="200"/>
+    <img src="/uploads/UAS_project/data_clean_compare.png"><img src="/uploads/UAS_project/data_clean_compare.png">
 </div>
 
 
