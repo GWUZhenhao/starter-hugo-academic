@@ -51,7 +51,7 @@ We clean the data by:
 >3. Drop the Basophil class
 >4. Drop the double class
 >5. Drop the null class
-![The comparison](/uploads/UAS_project/data_clean_compare.png)
+![The comparison](/uploads/UAS_project/data_clean_compare.png "Try the title")
 
 <figure class="half">
     <img src="/uploads/UAS_project/data_clean_compare.png">
