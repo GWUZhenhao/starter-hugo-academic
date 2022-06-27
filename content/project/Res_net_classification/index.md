@@ -53,8 +53,10 @@ We clean the data by:
 >5. Drop the null class
 ![The comparison](/uploads/UAS_project/data_clean_compare.png "Dataset distribution after cleaning")
 
-| ![The comparison](/uploads/UAS_project/data_clean_compare.png "Dataset distribution after cleaning") | ![The comparison](/uploads/UAS_project/data_clean_compare.png "Dataset distribution after cleaning") |
-|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+Also, I do the data exploration by drawing the pixel distribution and average images.
+
+| ![The comparison](/uploads/UAS_project/average_image.png "average images for each class") | ![The comparison](\uploads\UAS_project\pixel_distribution.png "Pixel distribution") |
+|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 
 
 
