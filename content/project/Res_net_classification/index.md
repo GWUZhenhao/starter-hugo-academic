@@ -46,12 +46,14 @@ The row dataset containing 410 images for 5 classes:
 ![Show 5 classes](/uploads/UAS_project/5_class.png)
 
 We clean the data by:
->Delete 10% of the Neutrophil
->Training the less-amount class multi-time
->Drop the Basophil class
->Drop the double class
->Drop the null class
+>1. Delete 10% of the Neutrophil
+>2. Training the less-amount class multi-time
+>3. Drop the Basophil class
+>4. Drop the double class
+>5. Drop the null class
 ![The comparison](/uploads/UAS_project/data_clean_compare.png)
+
+
 
 
 
