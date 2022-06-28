@@ -71,7 +71,7 @@ Core concept - the residual block
 - A identity map adding the block-beginning layer feature to the block-ending layer.
 - Solve the degradation problem.
 
-![The Resisual block](/uploads/images/projet_resnet_5.png "Residual learning: a building block.")
+![The Resisual block](/uploads/images/project_resnet_5.png "Residual learning: a building block.")
 
 #### EfficientNet:
 The author of the EfficientNet firstly using neural architecture search to find the baseline network, which ensures the whole architecture to be smaller and more accurate. And then he proposes a compound scaling method, uniform scale network width, depth and resolution using a composite factor φ. He scaled up the baseline model by this composite factor and come up with the EfficientNet.
