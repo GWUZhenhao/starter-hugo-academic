@@ -56,7 +56,7 @@ We visualize the segmentation with the Visualization Toolkit (VTK).
 
 
 The left image is the model predict and the right image is the ground truth.
-![Example image](/uploads/UAS_project/seg_sample_1.png)
-![Example image](/uploads/UAS_project/seg_sample_2.png)
+![Example image](/uploads/images/project_anseg_1.png)
+![Example image](/uploads/images/project_anseg_2.png)
 
 

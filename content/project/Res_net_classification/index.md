@@ -43,7 +43,7 @@ We test and compared three classic classification model here: ResNet, EfficientN
 Here is the dataset link: https://www.kaggle.com/datasets/paultimothymooney/blood-cells.
 
 The row dataset containing 410 images for 5 classes:
-![Show 5 classes](/uploads/UAS_project/5_class.png)
+![Show 5 classes](/uploads/images/project_resnet_1.png)
 
 We clean the data by:
 >1. Delete 10% of the Neutrophil
@@ -51,12 +51,12 @@ We clean the data by:
 >3. Drop the Basophil class
 >4. Drop the double class
 >5. Drop the null class
-![The comparison](/uploads/UAS_project/data_clean_compare.png "Dataset distribution after cleaning")
+![The comparison](/uploads/images/project_resnet_2.png "Dataset distribution after cleaning")
 
 Also, I do the data exploration by drawing the pixel distribution and average images.
 
-| ![Average](/uploads/UAS_project/average_image.png "average images for each class") | ![Distribution](/uploads/UAS_project/pixel_distribution.png "Pixel distribution") |
-|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| ![Average](/uploads/images/project_resnet_3.png "average images for each class") | ![Distribution](/uploads/images/project_resnet_4.png "Pixel distribution") |
+|----------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 
 
 
@@ -71,13 +71,13 @@ Core concept - the residual block
 - A identity map adding the block-beginning layer feature to the block-ending layer.
 - Solve the degradation problem.
 
-![The Resisual block](/uploads/UAS_project/res_block.png "Residual learning: a building block.")
+![The Resisual block](/uploads/images/projet_resnet_5.png "Residual learning: a building block.")
 
 #### EfficientNet:
 The author of the EfficientNet firstly using neural architecture search to find the baseline network, which ensures the whole architecture to be smaller and more accurate. And then he proposes a compound scaling method, uniform scale network width, depth and resolution using a composite factor φ. He scaled up the baseline model by this composite factor and come up with the EfficientNet.
 
 To test the robustness of the scaling method, the author applies the scaling method to MobileNets and Resnets, showing that the composite scaling method improves the accuracy of all these models.
-![Scaling](/uploads/UAS_project/scale.png "Model Scaling.")
+![Scaling](/uploads/images/project_resnet_6.png "Model Scaling.")
 
 
 #### AlexNet:
@@ -85,5 +85,8 @@ Traditional CNN, just as a control group to evaluate the performance of the Effi
 
 
 ## Results
-We evaluate the model by the training loss/accuracy graph, confusion matrix and the
-![Scaling](/uploads/UAS_project/EfficientNet_performance.JPG "Result of EfficientNet.")
+We evaluate the model by the training loss/accuracy graph, confusion matrix and the statistic information.
+
+| ![Average](/uploads/images/project_resnet_3.png "average images for each class") | ![Distribution](/uploads/images/project_resnet_4.png "Pixel distribution") |
+|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+

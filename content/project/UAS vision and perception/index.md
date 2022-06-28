@@ -96,8 +96,8 @@ The RetinaNet detection:
 {{< youtube SGFQ4z6T_2o >}}
 
 ### Time consumption
-![Example image](/uploads/UAS_project/time_table.png)
+![Example image](/uploads/images/project_UAS_1.png)
 
 ### The onboard GPU we used
 NVIDIA JETSON XAVIER NX
-![Example image](/uploads/UAS_project/onboard_GPU.JPG)
+![Example image](/uploads/images/project_UAS_2.JPG)
