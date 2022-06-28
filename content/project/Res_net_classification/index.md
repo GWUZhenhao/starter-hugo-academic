@@ -94,4 +94,23 @@ We evaluate the model by the training loss/accuracy graph, confusion matrix and 
 | ![The statistic information](/uploads/images/project_resnet_9.png "The statistic information of the EfficientNet") | ![EfficientNet loss graph](/uploads/images/project_resnet_10.png "The confusion matrix of the EfficientNet.") |
 |--------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="/uploads/images/project_resnet_7.png" width="60%" />
+				<br/>
+				<font color="AAAAAA">001.jpg</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="/uploads/images/project_resnet_7.png" width="60%" />
+				<br/>
+				<font color="AAAAAA">002.jpg</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
 ### The result of the ResNet
