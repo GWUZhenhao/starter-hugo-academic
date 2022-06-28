@@ -85,5 +85,5 @@ Traditional CNN, just as a control group to evaluate the performance of the Effi
 
 
 ## Results
-We evaluate the model by the training loss graph, confusion matrix and the 
-Result of EfficientNet:
+We evaluate the model by the training loss/accuracy graph, confusion matrix and the
+![Scaling](/uploads/UAS_project/EfficientNet_performance.JPG "Result of EfficientNet.")
