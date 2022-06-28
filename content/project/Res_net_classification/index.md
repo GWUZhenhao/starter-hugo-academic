@@ -182,3 +182,8 @@ Obviously, the AlexNet can't catch enough feature to make right decision.
 | EfficientNet |   0.91   |        0.86         |        0.97         |
 
 </div>
+
+## Conclusion
+In this project, I trained 3 classification models and test their performance. Although the traditional AlexNet
+can't extract enough feature to make right decision, the performance of the ResNet and the EfficientNet
+is pretty good. Especially for the EfficientNet, the accuracy of it reach above 90 percent.
