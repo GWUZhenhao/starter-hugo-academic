@@ -95,7 +95,7 @@ We evaluate the model by the training loss/accuracy graph, confusion matrix and 
 |--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 
 
-<img src=/uploads/images/project_resnet_9.png width=60%  alt="The statistic information"/>
+![The statistic information](/uploads/images/project_resnet_9.png "The statistic information of the EfficientNet"){{ $image := $image.Resize "600x" }}
 
 <table rules="none" align="center">
 	<tr>
