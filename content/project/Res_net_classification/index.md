@@ -91,9 +91,54 @@ We evaluate the model by the training loss/accuracy graph, confusion matrix and 
 | ![EfficientNet loss graph](/uploads/images/project_resnet_7.png "The loss decreasing graph of the EfficientNet.")            | ![EfficientNet accuracy graph](/uploads/images/project_resnet_8.png "The accuracy increasing graph of the EfficientNet.") |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 
-| ![The statistic information](/uploads/images/project_resnet_9.png "The statistic information of the EfficientNet")  |      ![EfficientNet loss graph](/uploads/images/project_resnet_10.png "The confusion matrix of the EfficientNet.")      |
-|:-------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------:|
+![EfficientNet confusion matrix](/uploads/images/project_resnet_9.png "The confusion matrix of the EfficientNet.")
 
+The statistic information of the EfficientNet:<br>
+- The number of right prediction is 32
+- The number of total prediction is 35
+- The accuracy is 0.914
+- For type NEUTROPHIL:
+  - The recall/sensitivity is 0.833
+  - The specificity is 1.000
+  - The precision is 1.000
+- For type EOSINOPHIL:
+  - The recall/sensitivity is 1.000
+  - The specificity is 0.938
+  - The precision is 0.600
+- For type MONOCYTE:
+  - The recall/sensitivity is 0.667
+  - The specificity is 1.000
+  - The precision is 1.000
+- For type LYMPHOCYTE:
+  - The recall/sensitivity is 0.957
+  - The specificity is 0.917
+  - The precision is 0.957
 
 
 ### The result of the ResNet
+| ![ResNet loss graph](/uploads/images/project_resnet_10.png "The loss decreasing graph of the ResNet.") | ![Resnet accuracy graph](/uploads/images/project_resnet_11.png "The accuracy increasing graph of the ResNet.") |
+|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+
+![ResNet confusion matrix](/uploads/images/project_resnet_12.png "The confusion matrix of the ResNet.")
+
+
+The statistic information of the ResNet:<br>
+- The number of right prediction is 28
+- The number of total prediction is 35
+- The accuracy is 0.800
+- For type NEUTROPHIL:
+  - The recall/sensitivity is 1.000
+  - The specificity is 0.759
+  - The precision is 0.462
+- For type EOSINOPHIL:
+  - The recall/sensitivity is 1.000
+  - The specificity is 1.000
+  - The precision is 1.000
+- For type MONOCYTE:
+  - The recall/sensitivity is 1.000
+  - The specificity is 1.000
+  - The precision is 1.000
+- For type LYMPHOCYTE:
+  - The recall/sensitivity is 0.696
+  - The specificity is 1.000
+  - The precision is 1.000
