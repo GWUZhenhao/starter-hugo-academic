@@ -39,7 +39,7 @@ This project using deep learning method to do the classification for the blood s
 We test and compared three classic classification model here: ResNet, EfficientNet and the AlexNet.
 
 ## Methods
-### Dataset:
+### Dataset
 Here is the dataset link: https://www.kaggle.com/datasets/paultimothymooney/blood-cells.
 
 The row dataset containing 410 images for 5 classes:
@@ -60,8 +60,8 @@ Also, I do the data exploration by drawing the pixel distribution and average im
 
 
 
-### Model selection:
-#### ResNet:
+### Model selection
+#### ResNet
 This model solved the degradation problem: As the network became deeper and deeper, the error begin to increase - hard to converge.
 - Not caused by overfitting, because the training error is also increase
 - Not caused by gradients vanishing/exploding, because this problem has been largely addressed by normalization layers.
@@ -73,22 +73,25 @@ Core concept - the residual block
 
 ![The Resisual block](/uploads/images/project_resnet_5.png "Residual learning: a building block.")
 
-#### EfficientNet:
+#### EfficientNet
 The author of the EfficientNet firstly using neural architecture search to find the baseline network, which ensures the whole architecture to be smaller and more accurate. And then he proposes a compound scaling method, uniform scale network width, depth and resolution using a composite factor φ. He scaled up the baseline model by this composite factor and come up with the EfficientNet.
 
 To test the robustness of the scaling method, the author applies the scaling method to MobileNets and Resnets, showing that the composite scaling method improves the accuracy of all these models.
 ![Scaling](/uploads/images/project_resnet_6.png "Model Scaling.")
 
 
-#### AlexNet:
+#### AlexNet
 Traditional CNN, just as a control group to evaluate the performance of the EfficientNet and the ResNet.
 
 
 ## Results
 We evaluate the model by the training loss/accuracy graph, confusion matrix and the statistic information.
 
+### The result of the EfficientNet
 | ![EfficientNet loss graph](/uploads/images/project_resnet_7.png "The loss decreasing graph of the EfficientNet.")            | ![EfficientNet accuracy graph](/uploads/images/project_resnet_8.png "The accuracy increasing graph of the EfficientNet.") |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 
 | ![The statistic information](/uploads/images/project_resnet_9.png "The statistic information of the EfficientNet") | ![EfficientNet loss graph](/uploads/images/project_resnet_10.png "The confusion matrix of the EfficientNet.") |
 |--------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+
+### The result of the ResNet

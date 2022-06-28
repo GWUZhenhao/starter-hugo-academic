@@ -50,7 +50,7 @@ RetinaNet and YOLOv5. We compare the two models’ object detection accuracy and
 real-world landing videos. 
 
 ## Methods
-### Dataset:
+### Dataset
 We trained the model on the VisDrone2019-Det dataset, which is a public dataset collected by the AISKYEYE
 team at the Lab of Machine Learning and Data Mining, Tianjin University, China. The dataset consists of 7,019 static
 images taken by various drone platforms collected from 14 cities that are thousands of kilometers away from each other.
@@ -58,13 +58,13 @@ Additionally, the dataset covers a broad distribution of locations from urban to
 makes the model trained on this dataset robust and very suitable for this study.
 
 
-### Model selection:
+### Model selection
 We select YOLOv5 and RetinaNet for this project. In 2017, RetinaNet outperformed YOLOv2 on both the speed (ms) and accuracy (AP) for the COCO test-dev
 dataset. But in the current years, the fifth generation of YOLO models was released. It is necessary to compare the two model
 types in inference speed and accuracy and select the better model for our algorithms.
 
 
-### Object tracking using the Kanade-Lucas-Tomasi tracker and landing pad detection:
+### Object tracking using the Kanade-Lucas-Tomasi tracker and landing pad detection
 The plan for landing pad detection and tracking is as follows. First, we take a reference photo of the landing pad,
 and extract features of the landing pad with the Harris feature detector. Second, we match the features in the video
 frame to the reference features by minimizing the SSD (sum of squared difference) to draw the bounding box. Once we
