@@ -91,27 +91,9 @@ We evaluate the model by the training loss/accuracy graph, confusion matrix and 
 | ![EfficientNet loss graph](/uploads/images/project_resnet_7.png "The loss decreasing graph of the EfficientNet.")            | ![EfficientNet accuracy graph](/uploads/images/project_resnet_8.png "The accuracy increasing graph of the EfficientNet.") |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 
-| ![The statistic information](/uploads/images/project_resnet_9.png "The statistic information of the EfficientNet") | ![EfficientNet loss graph](/uploads/images/project_resnet_10.png "The confusion matrix of the EfficientNet.") |
-|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| ![The statistic information](/uploads/images/project_resnet_9.png "The statistic information of the EfficientNet")  |      ![EfficientNet loss graph](/uploads/images/project_resnet_10.png "The confusion matrix of the EfficientNet.")      |
+|:-------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------:|
 
 
-![The statistic information](/uploads/images/project_resnet_9.png "The statistic information of the EfficientNet"){{ $image := $image.Resize "600x" }}
-
-<table rules="none" align="center">
-	<tr>
-		<td>
-			<center>
-				<img src="/uploads/images/project_resnet_9.png" width="60%" />
-				<font color="AAAAAA">001.jpg</font>
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="/uploads/images/project_resnet_9.png" width="60%" />
-				<font color="AAAAAA">002.jpg</font>
-			</center>
-		</td>
-	</tr>
-</table>
 
 ### The result of the ResNet
