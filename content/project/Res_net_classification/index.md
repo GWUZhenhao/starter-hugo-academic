@@ -142,3 +142,43 @@ The statistic information of the ResNet:<br>
   - The recall/sensitivity is 0.696
   - The specificity is 1.000
   - The precision is 1.000
+
+### The result of the AlexNet
+| ![AlexNet loss graph](/uploads/images/project_resnet_13.png "The loss decreasing graph of the AlexNet.") | ![AlexNet accuracy graph](/uploads/images/project_resnet_14.png "The accuracy increasing graph of the AlexNet.") |
+|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+
+![AlexNet confusion matrix](/uploads/images/project_resnet_15.png "The confusion matrix of the AlexNet.")
+
+The statistic information of the AlexNet:<br>
+- The number of right prediction is 6
+- The number of total prediction is 35
+- The accuracy is 0.171
+- For type NEUTROPHIL:
+  - The recall/sensitivity is 1.000
+  - The specificity is 0.000
+  - The precision is 0.171
+- For type EOSINOPHIL:
+  - The recall/sensitivity is 0.000
+  - The specificity is 1.000
+  - The precision is 0
+- For type MONOCYTE:
+  - The recall/sensitivity is 0.000
+  - The specificity is 1.000
+  - The precision is 0
+- For type LYMPHOCYTE:
+  - The recall/sensitivity is 0.000
+  - The specificity is 1.000
+  - The precision is 0
+
+Obviously, the AlexNet can't catch enough feature to make right decision.
+
+### Models comparison
+<div class="table">
+
+|    Model     | Accuracy | Average sensitivity | Average specificity |
+|:------------:|:--------:|:-------------------:|:-------------------:|
+|   AlexNet    |   0.17   |        0.25         |        0.75         |
+|    ResNet    |   0.80   |        9.92         |        0.94         |
+| EfficientNet |   0.91   |        0.86         |        0.97         |
+
+</div>
