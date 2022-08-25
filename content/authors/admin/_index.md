@@ -71,9 +71,9 @@ highlight_name: true
 ---
 
 
-I am a Ph.D. student in the Assistive Robotics & Telemedicine (ART-MED) Lab advised by Professor {{< staticref "http://www.chunghyukpark.com/" "newtab" >}}Chunghyuk Park{{< /staticref >}}.
+I am a Ph.D. student in the Assistive Robotics & Telemedicine (ART-MED) Lab advised by Professor {{< staticref "http://www.chunghyukpark.com/" "newtab" >}}Chung-Hyuk Park{{< /staticref >}}.
 My research focuses on machine learning, computer vision and their related application.
-I am currently working on designing the artificial intelligence system to assist in the medical scenario and an automatic landing research mentored by the professor {{< staticref "https://web.seas.gwu.edu/pwei/" "newtab" >}}Peng Wei{{< /staticref >}}.
+I am currently working on designing the artificial intelligence system for the medical scenario and a UAS automatic landing research mentored by the professor {{< staticref "https://web.seas.gwu.edu/pwei/" "newtab" >}}Peng Wei{{< /staticref >}}.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
