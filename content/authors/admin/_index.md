@@ -6,7 +6,7 @@ title: Zhenhao Zhao
 superuser: true
 
 # Role/position/tagline
-role: Graduate Student in Computer Science
+role: Ph.D. Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -18,16 +18,19 @@ bio: My research interests include machine learning, computer vision and data an
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
+  - Robotic Intelligent System
   - Computer Vision
-  - Machine learning
+  - Machine Learning
 
 # Education to show in About widget
 education:
   courses:
+    - course: PhD in Biomedical Engineer
+      institution: George Washington University
+      year: 2022-present
     - course: MS in Computer Science
       institution: George Washington University
-      year: 2020-present
+      year: 2020-2022
     - course: BS in Computer Science
       institution: Beijing Information Science And Technology University
       year: 2016-2020
@@ -68,9 +71,9 @@ highlight_name: true
 ---
 
 
-I am a graduate student in the department of computer science at George Washington University.
+I am a Ph.D. student in the Assistive Robotics & Telemedicine (ART-MED) Lab advised by Professor {{< staticref "http://www.chunghyukpark.com/" "newtab" >}}Chunghyuk Park{{< /staticref >}}.
 My research focuses on machine learning, computer vision and their related application.
-I am currently working on the UAS vision and perception research mentored by the professor {{< staticref "https://web.seas.gwu.edu/pwei/" "newtab" >}}Peng Wei{{< /staticref >}}.
+I am currently working on designing the artificial intelligence system to assist in the medical scenario and an automatic landing research mentored by the professor {{< staticref "https://web.seas.gwu.edu/pwei/" "newtab" >}}Peng Wei{{< /staticref >}}.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
