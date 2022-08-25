@@ -32,7 +32,7 @@ education:
       institution: George Washington University
       year: 2020-2022
     - course: BS in Computer Science
-      institution: Beijing Information Science And Technology University
+      institution: Beijing Information Science and Technology University
       year: 2016-2020
 
 # Social/Academic Networking
