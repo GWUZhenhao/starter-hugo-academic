@@ -6,7 +6,7 @@ title: Zhenhao Zhao
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student
+role: Graduate Research Assistant
 
 # Organizations/Affiliations to show in About widget
 organizations:
